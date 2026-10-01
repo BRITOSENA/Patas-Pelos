@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F7E8C8;
+}
+
+.nav {
+    background-color: #FFF5DF;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    z-index: 9;}
+
+    .nav-list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin-right: 28px;
+    }
+
+    .a{
+        text-decoration: none;
+        color: #5A2E16;
+        padding: 20px;
+    }
+
+    .a:hover{
+        color: #C96A16;
+        border: solid #B87900;
+        border-radius: 200px;
+    }
+
+.PRINCIPAL{
+    margin-top: 80px;
+    padding: 350px;
+    background-image: url(IMG/Rações_principal.jpg);
+    background-size: 1640px 700px;
+    background-repeat: no-repeat;
+}
+
+.PRINCIPAL button:hover{
+    color: #000000;
+}
+
+.LOGO{
+    background-repeat: no-repeat;
+    margin-right: 1210px;
+    justify-content:flex-start;
+    height: 80px;
+    width: 80px;
+}
+
+.link{
+margin-left: 40px;
+}
+
+.ração{
+    height: 250px;
+    background-color: #6B3F24;   
+    padding-top: 10px;
+    padding-bottom: 360px;
+    background-image: url(IMG/Ração\ para\ cães.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 370px;
+    margin-bottom: 80px;
+    flex: 1;
+    display: flex;
+}
+
+.REMEDIOS{
+    height: 250px;
+    background-color:#6B3F24;   
+    padding-top: 10px;
+    padding-bottom: 360px;
+    background-image: url(IMG/Ração\ para\ gatos.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 370px;
+    flex: 1;
+    display: flex;
+}
+
+h6{
+    margin-top: 100px;
+    margin-left: 700px;
+    font-size: x-large;
+    color: #F7E8C8;
+    background-color:#5A2E16;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #5A2E16;
+    color:#ffffff;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    text-align: end;
+}
+
+.TELEFONE {
+    margin-left: 20px;
+    text-align: start;
+}
+
+.CNPJ{
+    margin-left: 20px;
+    margin-top: 20px;
+    text-align: start;
+    font-style: bold;
+}
+
+.ajuda{
+    margin-left: 1250px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.comida {
+    font-size: x-large;
+    color: #F7E8C8;;
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 1200px;
+    background-color: #6B3F24;
+    padding-left: 20px;
+    padding-right: 20px;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 100px 130px;
+    margin-bottom: 20px;
+}
